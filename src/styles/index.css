@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gray-50;
+}
+
+.dashboard-card {
+  @apply bg-white rounded-lg shadow-md p-4 border border-gray-200;
+}
+
+.dashboard-title {
+  @apply text-xl font-semibold text-gray-800 mb-4;
+}
+
+.chart-container {
+  @apply w-full h-64 md:h-80;
+}
+
+.data-table {
+  @apply w-full text-sm text-left text-gray-500;
+}
+
+.data-table th {
+  @apply px-4 py-3 bg-gray-100 text-gray-700 font-medium;
+}
+
+.data-table td {
+  @apply px-4 py-2 border-b border-gray-200;
+}
+
+.stats-card {
+  @apply bg-white rounded-lg shadow-sm p-4 border border-gray-200;
+}
+
+.stats-value {
+  @apply text-2xl font-bold text-gray-800;
+}
+
+.stats-label {
+  @apply text-sm text-gray-500;
+}
